@@ -481,6 +481,28 @@ main {
   line-height: 1.75;
 }
 
+.case-study-tech {
+  margin-top: 1rem;
+}
+
+.case-study-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1rem;
+  min-height: 2.8rem;
+  padding: 0 1rem;
+  border-radius: 999px;
+  border: 1px solid var(--line);
+  background: rgba(255, 255, 255, 0.04);
+  font-weight: 700;
+}
+
+.case-study-link:hover,
+.case-study-link:focus-visible {
+  background: rgba(255, 255, 255, 0.08);
+}
+
 .tools-grid,
 .education-grid,
 .contact-grid {
