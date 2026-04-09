@@ -456,8 +456,32 @@ main > .panel-section {
   align-items: start;
 }
 
+.case-study-body-text-only {
+  display: block;
+}
+
 .case-study-copy {
   min-width: 0;
+}
+
+.case-study-copy-wide {
+  width: 100%;
+  max-width: none;
+}
+
+.case-study-copy-wide p,
+.case-study-copy-wide ul {
+  max-width: none;
+}
+
+.case-study-copy-wide ul {
+  column-count: 2;
+  column-gap: 2rem;
+}
+
+.case-study-copy-wide li {
+  break-inside: avoid;
+  margin-bottom: 0.25rem;
 }
 
 .case-study-badge {
@@ -485,6 +509,34 @@ main > .panel-section {
 
 .project-output-card-centered {
   align-self: center;
+}
+
+.artifact-summary-card {
+  align-content: center;
+  min-height: 280px;
+}
+
+.artifact-focus-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.artifact-focus-list span {
+  display: inline-flex;
+  padding: 0.7rem 0.9rem;
+  border-radius: 999px;
+  background: rgba(152, 245, 225, 0.1);
+  border: 1px solid rgba(152, 245, 225, 0.12);
+  color: var(--text);
+  font-size: 0.95rem;
+  font-weight: 700;
+}
+
+.artifact-summary-note {
+  margin: 0;
+  color: var(--muted);
+  line-height: 1.7;
 }
 
 .project-output-head {
