@@ -1,0 +1,31 @@
+<svg width="760" height="760" viewBox="0 0 760 760" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="760" height="760" rx="56" fill="#F7F2EA"/>
+  <circle cx="162" cy="154" r="82" fill="#E9D7F5"/>
+  <circle cx="590" cy="160" r="96" fill="#DDEBFF"/>
+  <circle cx="604" cy="548" r="64" fill="#DDEFD7"/>
+  <ellipse cx="384" cy="616" rx="242" ry="30" fill="#E7DED2"/>
+  <rect x="154" y="470" width="456" height="22" rx="11" fill="#D8C7B8"/>
+  <rect x="210" y="492" width="20" height="82" rx="10" fill="#D8C7B8"/>
+  <rect x="530" y="492" width="20" height="82" rx="10" fill="#D8C7B8"/>
+  <rect x="250" y="348" width="170" height="108" rx="20" fill="#6D6ACF"/>
+  <rect x="268" y="366" width="134" height="72" rx="12" fill="#F4F8FF"/>
+  <rect x="280" y="378" width="110" height="48" rx="10" fill="#D7E5FF"/>
+  <rect x="242" y="454" width="186" height="10" rx="5" fill="#ACA1D9"/>
+  <rect x="470" y="420" width="74" height="18" rx="9" transform="rotate(-14 470 420)" fill="#F4C76C"/>
+  <rect x="448" y="390" width="22" height="34" rx="9" fill="#7BC5C2"/>
+  <rect x="210" y="438" width="30" height="42" rx="12" fill="#7BC5C2"/>
+  <path d="M250 308C250 258.29 290.29 218 340 218H392C441.71 218 482 258.29 482 308V472H250V308Z" fill="#F08C5A"/>
+  <ellipse cx="370" cy="236" rx="68" ry="74" fill="#FFD9C2"/>
+  <path d="M315 196C330.534 178.251 352.975 168 376.562 168C421.833 168 458.821 205.245 461.959 249.749L463 264H446C435.48 226.844 402.59 200 364 200H344C316.69 200 291.866 213.93 277.146 236.679L272 244V236C272 221.247 287.171 206.086 315 196Z" fill="#2D355B"/>
+  <path d="M304 272C315.447 290.659 337.119 302 361.538 302H408V346H320L304 272Z" fill="#FFC8AA"/>
+  <rect x="316" y="316" width="132" height="180" rx="34" fill="#F08C5A"/>
+  <path d="M246 364C261.693 333.529 291.652 314.214 325.863 313.364L334 313.162L338 360L308 404L258 400C242.322 398.746 234.548 384.76 246 364Z" fill="#FFD9C2"/>
+  <path d="M450 340C469.063 319.405 497.17 311.717 523.631 320L552 328L544 360L500 378L458 396C442.547 402.623 425.393 391.13 425.393 374.318V370L450 340Z" fill="#FFD9C2"/>
+  <path d="M326 496H420L384 622H316C297.879 622 284.149 605.49 288.325 587.857L326 496Z" fill="#6D6ACF"/>
+  <path d="M420 496H470L544 620H484C470.98 620 458.904 613.196 452.172 602.058L420 496Z" fill="#404A78"/>
+  <rect x="294" y="620" width="126" height="20" rx="10" fill="#2D355B"/>
+  <rect x="472" y="620" width="108" height="20" rx="10" fill="#2D355B"/>
+  <circle cx="136" cy="554" r="10" fill="#E9D7F5"/>
+  <circle cx="208" cy="188" r="8" fill="#F4C76C"/>
+  <circle cx="586" cy="250" r="10" fill="#7BC5C2"/>
+</svg>
