@@ -1,0 +1,44 @@
+<svg width="1200" height="760" viewBox="0 0 1200 760" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="760" rx="36" fill="#121824"/>
+  <rect x="50" y="50" width="1100" height="660" rx="30" fill="#171F2E" stroke="#2A3852" stroke-width="2"/>
+  <text x="92" y="118" fill="#F5F7FB" font-family="Arial, sans-serif" font-size="42" font-weight="700">Neural Signal Architecture</text>
+  <text x="92" y="154" fill="#7DE5D3" font-family="Arial, sans-serif" font-size="22" font-weight="700" letter-spacing="3">INPUTS, HIDDEN LAYERS, LEARNED PATTERNS</text>
+  <rect x="92" y="198" width="1016" height="448" rx="28" fill="#101827" stroke="#314766" stroke-width="2"/>
+  <g opacity="0.35" stroke="#39547B" stroke-width="4">
+    <line x1="268" y1="300" x2="506" y2="256"/>
+    <line x1="268" y1="300" x2="506" y2="360"/>
+    <line x1="268" y1="300" x2="506" y2="464"/>
+    <line x1="268" y1="404" x2="506" y2="256"/>
+    <line x1="268" y1="404" x2="506" y2="360"/>
+    <line x1="268" y1="404" x2="506" y2="464"/>
+    <line x1="268" y1="508" x2="506" y2="256"/>
+    <line x1="268" y1="508" x2="506" y2="360"/>
+    <line x1="268" y1="508" x2="506" y2="464"/>
+    <line x1="610" y1="256" x2="850" y2="300"/>
+    <line x1="610" y1="256" x2="850" y2="404"/>
+    <line x1="610" y1="256" x2="850" y2="508"/>
+    <line x1="610" y1="360" x2="850" y2="300"/>
+    <line x1="610" y1="360" x2="850" y2="404"/>
+    <line x1="610" y1="360" x2="850" y2="508"/>
+    <line x1="610" y1="464" x2="850" y2="300"/>
+    <line x1="610" y1="464" x2="850" y2="404"/>
+    <line x1="610" y1="464" x2="850" y2="508"/>
+  </g>
+  <g fill="#8FB8FF">
+    <circle cx="232" cy="300" r="18"/><circle cx="232" cy="404" r="18"/><circle cx="232" cy="508" r="18"/>
+  </g>
+  <g fill="#7A68F2">
+    <circle cx="558" cy="256" r="18"/><circle cx="558" cy="360" r="18"/><circle cx="558" cy="464" r="18"/>
+  </g>
+  <g fill="#FFD166">
+    <circle cx="886" cy="300" r="18"/><circle cx="886" cy="404" r="18"/><circle cx="886" cy="508" r="18"/>
+  </g>
+  <rect x="140" y="574" width="184" height="46" rx="16" fill="#1D2B41"/>
+  <text x="184" y="604" fill="#D8E1EF" font-family="Arial, sans-serif" font-size="22" font-weight="700">Input Layer</text>
+  <rect x="466" y="574" width="184" height="46" rx="16" fill="#251F4D"/>
+  <text x="498" y="604" fill="#E4DEFF" font-family="Arial, sans-serif" font-size="22" font-weight="700">Hidden Layer</text>
+  <rect x="792" y="574" width="184" height="46" rx="16" fill="#45331C"/>
+  <text x="824" y="604" fill="#FFF0C4" font-family="Arial, sans-serif" font-size="22" font-weight="700">Output Layer</text>
+  <rect x="734" y="224" width="300" height="54" rx="18" fill="#111A28" stroke="#314766" stroke-width="2"/>
+  <text x="758" y="258" fill="#D8E1EF" font-family="Arial, sans-serif" font-size="22">Signals strengthen as the model learns patterns.</text>
+</svg>

@@ -1,0 +1,25 @@
+<svg width="1200" height="760" viewBox="0 0 1200 760" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="760" rx="36" fill="#121824"/>
+  <rect x="56" y="56" width="1088" height="648" rx="30" fill="#171F2E" stroke="#2A3852" stroke-width="2"/>
+  <text x="94" y="126" fill="#F5F7FB" font-family="Arial, sans-serif" font-size="44" font-weight="700">AI Travel Planning Assistant</text>
+  <text x="94" y="162" fill="#7DE5D3" font-family="Arial, sans-serif" font-size="22" font-weight="700" letter-spacing="3">PROMPTS, ITINERARIES, PERSONALIZED SUPPORT</text>
+  <rect x="94" y="214" width="480" height="304" rx="28" fill="#0F1725" stroke="#2F4668" stroke-width="2"/>
+  <rect x="126" y="248" width="416" height="58" rx="18" fill="#1A2740"/>
+  <text x="150" y="286" fill="#DDE5F4" font-family="Arial, sans-serif" font-size="24">Plan a 3-day business trip with evening downtime.</text>
+  <rect x="126" y="336" width="330" height="48" rx="16" fill="#223450"/>
+  <rect x="126" y="398" width="278" height="48" rx="16" fill="#223450"/>
+  <rect x="126" y="460" width="360" height="28" rx="14" fill="#7DE5D3"/>
+  <text x="126" y="544" fill="#F5F7FB" font-family="Arial, sans-serif" font-size="28" font-weight="700">Prompt-driven itinerary</text>
+  <text x="126" y="580" fill="#C9D3E3" font-family="Arial, sans-serif" font-size="22">Inputs become clear travel suggestions, practical schedules, and usable outputs.</text>
+  <rect x="634" y="214" width="420" height="304" rx="28" fill="#0F1725" stroke="#2F4668" stroke-width="2"/>
+  <circle cx="844" cy="324" r="104" fill="#1E2E48"/>
+  <path d="M844 244L872 302H928L883 338L900 398L844 364L788 398L805 338L760 302H816L844 244Z" fill="#FFD166"/>
+  <rect x="706" y="450" width="276" height="20" rx="10" fill="#8FB8FF"/>
+  <text x="702" y="544" fill="#F5F7FB" font-family="Arial, sans-serif" font-size="28" font-weight="700">Travel clarity</text>
+  <text x="672" y="580" fill="#C9D3E3" font-family="Arial, sans-serif" font-size="22">Better prompts improve recommendations, structure, and traveler confidence.</text>
+  <rect x="94" y="624" width="960" height="40" rx="18" fill="#111A28" stroke="#2F4668" stroke-width="2"/>
+  <circle cx="130" cy="644" r="10" fill="#7DE5D3"/>
+  <circle cx="164" cy="644" r="10" fill="#FFD166"/>
+  <circle cx="198" cy="644" r="10" fill="#8FB8FF"/>
+  <text x="230" y="652" fill="#DDE5F4" font-family="Arial, sans-serif" font-size="22">Artifact focus: user intent, prompt design, itinerary structure, and usability.</text>
+</svg>

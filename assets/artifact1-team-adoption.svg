@@ -1,0 +1,25 @@
+<svg width="1200" height="760" viewBox="0 0 1200 760" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="760" rx="36" fill="#121824"/>
+  <rect x="48" y="48" width="1104" height="664" rx="28" fill="#171F2E" stroke="#2A3852" stroke-width="2"/>
+  <text x="86" y="122" fill="#F5F7FB" font-family="Arial, sans-serif" font-size="44" font-weight="700">AI/ML Adoption Planning</text>
+  <text x="86" y="158" fill="#7DE5D3" font-family="Arial, sans-serif" font-size="22" font-weight="700" letter-spacing="3">LEADERSHIP, COMMUNICATION, READINESS</text>
+  <circle cx="220" cy="412" r="84" fill="#1F3047"/>
+  <circle cx="220" cy="390" r="28" fill="#7DE5D3"/>
+  <rect x="172" y="424" width="96" height="72" rx="24" fill="#7DE5D3"/>
+  <circle cx="600" cy="412" r="84" fill="#1F3047"/>
+  <circle cx="600" cy="390" r="28" fill="#FFD166"/>
+  <rect x="552" y="424" width="96" height="72" rx="24" fill="#FFD166"/>
+  <circle cx="980" cy="412" r="84" fill="#1F3047"/>
+  <circle cx="980" cy="390" r="28" fill="#8FB8FF"/>
+  <rect x="932" y="424" width="96" height="72" rx="24" fill="#8FB8FF"/>
+  <path d="M304 408H516" stroke="#5D7AA7" stroke-width="10" stroke-linecap="round"/>
+  <path d="M684 408H896" stroke="#5D7AA7" stroke-width="10" stroke-linecap="round"/>
+  <polygon points="516,408 488,388 488,428" fill="#5D7AA7"/>
+  <polygon points="896,408 868,388 868,428" fill="#5D7AA7"/>
+  <text x="148" y="548" fill="#F5F7FB" font-family="Arial, sans-serif" font-size="28" font-weight="700">People</text>
+  <text x="122" y="582" fill="#C9D3E3" font-family="Arial, sans-serif" font-size="21">Communication and trust</text>
+  <text x="524" y="548" fill="#F5F7FB" font-family="Arial, sans-serif" font-size="28" font-weight="700">Planning</text>
+  <text x="518" y="582" fill="#C9D3E3" font-family="Arial, sans-serif" font-size="21">Training and governance</text>
+  <text x="900" y="548" fill="#F5F7FB" font-family="Arial, sans-serif" font-size="28" font-weight="700">Technology</text>
+  <text x="878" y="582" fill="#C9D3E3" font-family="Arial, sans-serif" font-size="21">Aligned AI capability</text>
+</svg>
