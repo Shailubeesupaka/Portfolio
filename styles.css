@@ -174,6 +174,7 @@ main {
     rgba(13, 16, 23, 0.62);
   box-shadow: var(--shadow);
   backdrop-filter: blur(10px);
+  overflow: hidden;
 }
 
 .hero-grid {
@@ -222,7 +223,7 @@ main {
 .value-card:hover,
 .bio-card:hover,
 .audience-card:hover {
-  transform: scale(1.05);
+  transform: translateY(-2px);
   box-shadow: var(--glow);
 }
 
@@ -861,6 +862,7 @@ main > .panel-section {
   border-radius: 18px;
   border: 1px solid var(--line);
   background: rgba(255, 255, 255, 0.04);
+  object-fit: contain;
 }
 
 .artifact-page-dual {
@@ -868,11 +870,45 @@ main > .panel-section {
   gap: 0.8rem;
 }
 
+.artifact-page-visual {
+  display: grid;
+  gap: 0.8rem;
+}
+
+.artifact-page-visual-caption {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.95rem;
+  line-height: 1.65;
+}
+
+.artifact-page-section-media {
+  margin-top: 0.25rem;
+}
+
+.artifact-page-section-media img {
+  width: 100%;
+  border-radius: 18px;
+  border: 1px solid var(--line);
+  background: rgba(255, 255, 255, 0.04);
+}
+
 .artifact-page-links {
   display: flex;
   flex-wrap: wrap;
   gap: 0.75rem;
   margin-top: 1rem;
+}
+
+.artifact-page-footer-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  justify-content: flex-start;
+}
+
+.artifact-page-content > .artifact-page-footer-actions {
+  margin-top: 0.25rem;
 }
 
 .education-card {
