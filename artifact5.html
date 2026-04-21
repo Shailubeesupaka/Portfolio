@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Artifact 5 | Shailu Beesupaka</title>
+  <meta name="description" content="Artifact 5 academic portfolio page for Shailu Beesupaka.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Sora:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="noise-layer" aria-hidden="true"></div>
+  <header class="topbar">
+    <a class="identity" href="index.html">
+      <span class="identity-mark">SB</span>
+      <span class="identity-text">
+        <strong>Shailu Beesupaka</strong>
+      </span>
+    </a>
+    <button class="menu-toggle" aria-expanded="false" aria-controls="site-nav" aria-label="Toggle navigation">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+    <nav id="site-nav" class="site-nav">
+      <a href="index.html">Home</a>
+      <a href="artifact1.html">Artifact 1</a>
+      <a href="artifact2.html">Artifact 2</a>
+      <a href="artifact3.html">Artifact 3</a>
+      <a href="artifact4.html">Artifact 4</a>
+      <a href="artifact5.html">Artifact 5</a>
+      <a href="index.html#skills">Skills</a>
+      <a href="index.html#education">Education</a>
+      <a href="index.html#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main class="artifact-page-main">
+    <section class="artifact-page-layout reveal">
+      <article class="artifact-page-card artifact-page-hero">
+        <div class="artifact-page-intro">
+          <p class="section-label">Artifact 5</p>
+          <h1>Model Validation and Verification for E-Commerce Customer Churn Prediction</h1>
+          <p>This artifact presents a reflective machine learning report focused on validating a churn prediction model and verifying that its performance, fairness, and monitoring plan support responsible business use.</p>
+        </div>
+        <div class="artifact-page-visual">
+          <img src="assets/artifact5-validation-overview.svg" alt="Validation dashboard showing data split, churn model, and post-deployment checks">
+          <p class="artifact-page-visual-caption">The hero visual summarizes the full validation workflow, from data split and model training to business-focused churn alerts and ongoing monitoring.</p>
+        </div>
+      </article>
+
+      <div class="artifact-page-content">
+        <article class="artifact-page-card artifact-section-card">
+          <h2>Artifact Information</h2>
+          <h2>Introduction</h2>
+          <p>This artifact is based on my Assignment 5.3 reflective report for AIML-500 and focuses on model validation and verification in an e-commerce customer churn prediction scenario.</p>
+          <p>The project centers on identifying customers at risk of leaving so that retention actions can be taken early, while also making sure the model is evaluated with the right split strategy, ethical awareness, and post-deployment monitoring plan.</p>
+        </article>
+
+        <article class="artifact-page-card artifact-section-card">
+          <h2>Description</h2>
+          <p>The report documents how I prepared the dataset, selected a Random Forest Classifier, and validated the model using a 70/15/15 train, validation, and test split.</p>
+          <p>It also explains why churn prediction should be evaluated beyond accuracy alone by prioritizing recall, confusion matrix interpretation, fairness concerns, and model-drift monitoring after deployment.</p>
+          <div class="artifact-page-section-media">
+            <div class="artifact-page-grid">
+              <div class="artifact-page-visual">
+                <img src="assets/artifact5-churn-retention-visual.png" alt="AI-generated illustration of an analyst reviewing churn-risk customers and retention actions in an e-commerce setting">
+                <p class="artifact-page-visual-caption">This AI-generated visual shows the business meaning behind model evaluation by focusing on analysts, at-risk customers, and timely retention actions in an e-commerce setting.</p>
+              </div>
+              <div class="artifact-page-visual">
+                <img src="assets/artifact5-validation-infograph.svg" alt="Academic infographic summarizing validation design, model choice, and priority metrics for churn prediction">
+                <p class="artifact-page-visual-caption">This infographic adds the academic summary view by condensing the validation design, model choice, and evaluation priorities into a compact reference graphic.</p>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="artifact-page-card artifact-section-card">
+          <h2>Objective</h2>
+          <ul>
+            <li>Validate an e-commerce churn prediction model with a reliable data split strategy</li>
+            <li>Evaluate model quality using precision, recall, and confusion-matrix thinking</li>
+            <li>Reflect on fairness, privacy, and post-deployment monitoring requirements</li>
+          </ul>
+        </article>
+
+        <article class="artifact-page-card artifact-section-card">
+          <h2>Process</h2>
+          <ul>
+            <li>Cleaned the dataset by imputing missing tenure and warehouse-to-home distance values with median-based filling</li>
+            <li>Managed severe yearly spending outliers by capping extreme values near the 99th percentile</li>
+            <li>Handled class imbalance with SMOTE so the model would not default to predicting no churn too often</li>
+            <li>Selected a Random Forest Classifier because it handles non-linear relationships and reduces overfitting risk compared with a single decision tree</li>
+            <li>Used a 70/15/15 training, validation, and test split to tune the model without leaking information from the final test set</li>
+            <li>Planned post-deployment monitoring through F1-score tracking, feature-drift checks, and retraining when customer behavior changes</li>
+          </ul>
+          <div class="artifact-page-section-media">
+            <div class="artifact-page-visual">
+              <img src="assets/artifact5-monitoring-infograph.svg" alt="Academic infographic showing data preparation, fairness review, and post-deployment monitoring for churn prediction">
+              <p class="artifact-page-visual-caption">This supporting infographic highlights the academic process flow from data preparation to ethical review and post-deployment monitoring without turning the page into a dense technical diagram.</p>
+            </div>
+          </div>
+        </article>
+
+        <article class="artifact-page-card artifact-section-card">
+          <h2>Tools and Technologies Used</h2>
+          <p class="tags">Python | Random Forest Classifier | SMOTE | Confusion Matrix | Model Monitoring</p>
+        </article>
+
+        <article class="artifact-page-card artifact-section-card">
+          <h2>Value Proposition</h2>
+          <p>This artifact demonstrates that effective machine learning work is not only about building a predictive model, but also about proving that the model is valid, useful, fair, and maintainable over time.</p>
+          <p><b>Unique Value:</b> Connects technical validation with ethical reflection and deployment readiness.</p>
+          <p><b>Relevance:</b> Useful for analytics and AI roles where model performance must align with business outcomes and responsible data practices.</p>
+        </article>
+
+        <article class="artifact-page-card artifact-section-card">
+          <h2>Reflection</h2>
+          <p>This artifact strengthened my understanding that a strong machine learning project depends on disciplined validation, careful metric selection, and continuous review after deployment. It also reinforced that fairness, privacy, and business cost should shape how model success is defined.</p>
+        </article>
+
+        <article class="artifact-page-card artifact-section-card">
+          <h2>References</h2>
+          <p>AssemblyAI. (2022). How to evaluate ML models / evaluation metrics for machine learning; Galaxy Inferno Codes. (2022). Validation data: How it works and why you need it; Misra Turp. (2023). Why do we split data into train test and validation sets?; NStatum. (2022). Underfitting and overfitting explained; Underfitted. (2022). The confusion matrix in machine learning.</p>
+        </article>
+
+        <div class="artifact-page-footer-actions">
+          <a class="button button-solid" href="index.html">Back to Portfolio</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

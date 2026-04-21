@@ -90,6 +90,7 @@ main {
   display: inline-flex;
   align-items: center;
   gap: 0.9rem;
+  flex-shrink: 0;
 }
 
 .identity-mark {
@@ -126,8 +127,15 @@ main {
   display: flex;
   align-items: center;
   gap: 0.2rem;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   justify-content: flex-end;
+  min-width: 0;
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+
+.site-nav::-webkit-scrollbar {
+  display: none;
 }
 
 .site-nav a {
