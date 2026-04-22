@@ -1,0 +1,72 @@
+<svg width="900" height="620" viewBox="0 0 900 620" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="900" height="620" rx="34" fill="#101723"/>
+  <rect x="42" y="42" width="816" height="536" rx="30" fill="#151F2E" stroke="#2B3B55" stroke-width="3"/>
+  <text x="88" y="102" font-family="Arial, sans-serif" font-size="34" font-weight="700" fill="#F6F2E9">Model Validation and Verification</text>
+  <text x="90" y="138" font-family="Arial, sans-serif" font-size="16" font-weight="700" letter-spacing="4" fill="#72E2D1">E-COMMERCE CHURN PREDICTION</text>
+
+  <g transform="translate(88 182)">
+    <rect width="276" height="274" rx="24" fill="#0D1320" stroke="#2B3B55" stroke-width="2"/>
+    <text x="28" y="42" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#F6F2E9">Validation split</text>
+    <text x="28" y="67" font-family="Arial, sans-serif" font-size="13" font-weight="700" letter-spacing="2" fill="#AAB7C7">TRAIN | VALIDATE | TEST</text>
+
+    <rect x="28" y="95" width="190" height="36" rx="18" fill="#183449"/>
+    <text x="48" y="119" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#72E2D1">Training set</text>
+    <text x="195" y="119" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#F6F2E9">70%</text>
+
+    <rect x="28" y="145" width="126" height="36" rx="18" fill="#2B2742"/>
+    <text x="48" y="169" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#F5C66B">Validation</text>
+    <text x="120" y="169" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#F6F2E9">15%</text>
+
+    <rect x="28" y="195" width="126" height="36" rx="18" fill="#24324A"/>
+    <text x="48" y="219" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#8FB8FF">Test</text>
+    <text x="125" y="219" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#F6F2E9">15%</text>
+
+    <g transform="translate(28 238)">
+      <rect width="220" height="18" rx="9" fill="#172133"/>
+      <rect width="154" height="18" rx="9" fill="#72E2D1"/>
+      <rect x="154" width="33" height="18" rx="9" fill="#F5C66B"/>
+      <rect x="187" width="33" height="18" rx="9" fill="#8FB8FF"/>
+    </g>
+  </g>
+
+  <g transform="translate(392 182)">
+    <rect width="420" height="274" rx="24" fill="#0D1320" stroke="#2B3B55" stroke-width="2"/>
+    <text x="30" y="42" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#F6F2E9">Model workflow</text>
+
+    <g transform="translate(30 76)">
+      <rect width="108" height="60" rx="18" fill="#183449"/>
+      <text x="54" y="27" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#72E2D1">Cleaned</text>
+      <text x="54" y="45" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#F6F2E9">data</text>
+    </g>
+    <g transform="translate(156 76)">
+      <rect width="108" height="60" rx="18" fill="#2B2742"/>
+      <text x="54" y="27" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#F5C66B">SMOTE</text>
+      <text x="54" y="45" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#F6F2E9">balance</text>
+    </g>
+    <g transform="translate(282 76)">
+      <rect width="108" height="60" rx="18" fill="#24324A"/>
+      <text x="54" y="27" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#8FB8FF">Random</text>
+      <text x="54" y="45" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#F6F2E9">forest</text>
+    </g>
+
+    <g stroke="#4A648A" stroke-width="4" stroke-linecap="round">
+      <line x1="138" y1="106" x2="156" y2="106"/>
+      <line x1="264" y1="106" x2="282" y2="106"/>
+      <line x1="336" y1="154" x2="336" y2="176"/>
+    </g>
+
+    <g transform="translate(70 176)">
+      <rect width="276" height="70" rx="20" fill="#172133" stroke="#2B3B55" stroke-width="2"/>
+      <text x="138" y="29" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#F6F2E9">Retention decision support</text>
+      <text x="138" y="49" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="700" letter-spacing="2" fill="#AAB7C7">FLAG AT-RISK CUSTOMERS EARLY</text>
+    </g>
+  </g>
+
+  <g transform="translate(88 485)" font-family="Arial, sans-serif">
+    <rect width="724" height="54" rx="18" fill="#0D1320" stroke="#2B3B55" stroke-width="2"/>
+    <text x="26" y="34" font-size="16" font-weight="700" fill="#AAB7C7">Monitoring plan:</text>
+    <text x="184" y="34" font-size="16" font-weight="700" fill="#72E2D1">Weekly F1-score</text>
+    <text x="347" y="34" font-size="16" font-weight="700" fill="#F5C66B">Feature drift tracking</text>
+    <text x="565" y="34" font-size="16" font-weight="700" fill="#8FB8FF">Retrain on decay</text>
+  </g>
+</svg>

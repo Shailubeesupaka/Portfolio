@@ -1,0 +1,51 @@
+<svg width="900" height="540" viewBox="0 0 900 540" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="900" height="540" rx="30" fill="#111827"/>
+  <rect x="28" y="28" width="844" height="484" rx="26" fill="#182132" stroke="#30435F" stroke-width="2"/>
+  <text x="64" y="86" font-family="Arial, sans-serif" font-size="30" font-weight="700" fill="#F5F7FB">Process and Monitoring Highlights</text>
+  <text x="64" y="116" font-family="Arial, sans-serif" font-size="14" font-weight="700" letter-spacing="3" fill="#9FE6D8">FROM PREPROCESSING TO ETHICAL REVIEW</text>
+
+  <g transform="translate(64 164)">
+    <rect width="180" height="118" rx="22" fill="#0F1724" stroke="#30435F" stroke-width="2"/>
+    <text x="24" y="38" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#F5F7FB">Cleaning</text>
+    <text x="24" y="70" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#AFBACD">Median imputation for</text>
+    <text x="24" y="90" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#AFBACD">missing tenure and distance</text>
+  </g>
+  <g transform="translate(260 164)">
+    <rect width="180" height="118" rx="22" fill="#0F1724" stroke="#30435F" stroke-width="2"/>
+    <text x="24" y="38" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#F5F7FB">Balancing</text>
+    <text x="24" y="70" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#AFBACD">SMOTE used to address</text>
+    <text x="24" y="90" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#AFBACD">class imbalance in churn</text>
+  </g>
+  <g transform="translate(456 164)">
+    <rect width="180" height="118" rx="22" fill="#0F1724" stroke="#30435F" stroke-width="2"/>
+    <text x="24" y="38" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#F5F7FB">Fairness</text>
+    <text x="24" y="70" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#AFBACD">Check performance across</text>
+    <text x="24" y="90" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#AFBACD">age and regional segments</text>
+  </g>
+  <g transform="translate(652 164)">
+    <rect width="180" height="118" rx="22" fill="#0F1724" stroke="#30435F" stroke-width="2"/>
+    <text x="24" y="38" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#F5F7FB">Privacy</text>
+    <text x="24" y="70" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#AFBACD">Apply data minimization</text>
+    <text x="24" y="90" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#AFBACD">for behavioral features</text>
+  </g>
+
+  <g transform="translate(64 324)">
+    <rect width="768" height="140" rx="24" fill="#0F1724" stroke="#30435F" stroke-width="2"/>
+    <text x="24" y="38" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#F5F7FB">Post-deployment monitoring</text>
+    <g transform="translate(24 64)">
+      <rect width="220" height="50" rx="16" fill="#183044"/>
+      <text x="18" y="21" font-family="Arial, sans-serif" font-size="16" font-weight="700" fill="#9FE6D8">F1-score tracking</text>
+      <text x="18" y="39" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#D7DFEA">Watch weekly performance stability</text>
+    </g>
+    <g transform="translate(274 64)">
+      <rect width="220" height="50" rx="16" fill="#372C4D"/>
+      <text x="18" y="21" font-family="Arial, sans-serif" font-size="16" font-weight="700" fill="#FFD27A">Feature drift checks</text>
+      <text x="18" y="39" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#D7DFEA">Review changes in tenure and spend</text>
+    </g>
+    <g transform="translate(524 64)">
+      <rect width="220" height="50" rx="16" fill="#21354D"/>
+      <text x="18" y="21" font-family="Arial, sans-serif" font-size="16" font-weight="700" fill="#8FB8FF">Retraining trigger</text>
+      <text x="18" y="39" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#D7DFEA">Refresh the model when decay appears</text>
+    </g>
+  </g>
+</svg>

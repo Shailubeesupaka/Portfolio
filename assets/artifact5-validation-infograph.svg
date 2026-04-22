@@ -1,0 +1,61 @@
+<svg width="900" height="620" viewBox="0 0 900 620" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="900" height="620" rx="30" fill="#111827"/>
+  <rect x="28" y="28" width="844" height="564" rx="26" fill="#182132" stroke="#30435F" stroke-width="2"/>
+  <text x="64" y="86" font-family="Arial, sans-serif" font-size="30" font-weight="700" fill="#F5F7FB">Validation Summary</text>
+  <text x="64" y="116" font-family="Arial, sans-serif" font-size="14" font-weight="700" letter-spacing="3" fill="#9FE6D8">MODEL VERIFICATION FOR CHURN PREDICTION</text>
+
+  <g transform="translate(64 156)">
+    <rect width="238" height="154" rx="22" fill="#0F1724" stroke="#30435F" stroke-width="2"/>
+    <text x="24" y="38" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#F5F7FB">Data split</text>
+    <rect x="24" y="62" width="162" height="22" rx="11" fill="#21435A"/>
+    <rect x="24" y="95" width="102" height="22" rx="11" fill="#44335E"/>
+    <rect x="24" y="128" width="102" height="22" rx="11" fill="#243A58"/>
+    <text x="38" y="78" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#9FE6D8">Training set</text>
+    <text x="198" y="78" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#F5F7FB">70%</text>
+    <text x="38" y="111" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#FFD27A">Validation</text>
+    <text x="138" y="111" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#F5F7FB">15%</text>
+    <text x="38" y="144" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#8FB8FF">Test</text>
+    <text x="138" y="144" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#F5F7FB">15%</text>
+  </g>
+
+  <g transform="translate(330 156)">
+    <rect width="238" height="154" rx="22" fill="#0F1724" stroke="#30435F" stroke-width="2"/>
+    <text x="24" y="38" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#F5F7FB">Model choice</text>
+    <text x="24" y="72" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#9FE6D8">Random Forest</text>
+    <text x="24" y="102" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#AFBACD">Handles non-linear churn behavior</text>
+    <text x="24" y="126" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#AFBACD">Reduces overfitting risk</text>
+    <text x="24" y="150" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#AFBACD">Fits tabular e-commerce data</text>
+  </g>
+
+  <g transform="translate(596 156)">
+    <rect width="240" height="154" rx="22" fill="#0F1724" stroke="#30435F" stroke-width="2"/>
+    <text x="24" y="38" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#F5F7FB">Metric focus</text>
+    <text x="24" y="72" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#FFD27A">Recall priority</text>
+    <text x="24" y="102" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#AFBACD">False negatives cost more</text>
+    <text x="24" y="126" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#AFBACD">Precision reached 91%</text>
+    <text x="24" y="150" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#AFBACD">Confusion matrix guided review</text>
+  </g>
+
+  <g transform="translate(64 344)">
+    <rect width="772" height="192" rx="24" fill="#0F1724" stroke="#30435F" stroke-width="2"/>
+    <text x="24" y="40" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#F5F7FB">Academic interpretation</text>
+    <g transform="translate(24 68)">
+      <rect width="220" height="92" rx="18" fill="#183044"/>
+      <text x="18" y="30" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#9FE6D8">Why it matters</text>
+      <text x="18" y="56" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#D7DFEA">Model quality must be tied to</text>
+      <text x="18" y="76" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#D7DFEA">business retention decisions.</text>
+    </g>
+    <g transform="translate(276 68)">
+      <rect width="220" height="92" rx="18" fill="#372C4D"/>
+      <text x="18" y="30" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#FFD27A">Validation lesson</text>
+      <text x="18" y="56" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#D7DFEA">A separate validation split helps</text>
+      <text x="18" y="76" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#D7DFEA">tune the model without leakage.</text>
+    </g>
+    <g transform="translate(528 68)">
+      <rect width="220" height="92" rx="18" fill="#21354D"/>
+      <text x="18" y="30" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#8FB8FF">Decision insight</text>
+      <text x="18" y="56" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#D7DFEA">Good evaluation supports earlier</text>
+      <text x="18" y="76" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#D7DFEA">targeted retention offers.</text>
+    </g>
+  </g>
+</svg>
