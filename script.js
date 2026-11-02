@@ -28,7 +28,12 @@ const observer = new IntersectionObserver(
       }
     });
   },
-  { threshold: 0.16 }
+  { threshold: 0 }
 );
 
 revealElements.forEach((element) => observer.observe(element));
+
+// Safety net: never leave content hidden, even if the fade-in does not trigger.
+const showAll = () => revealElements.forEach((element) => element.classList.add("is-visible"));
+window.addEventListener("load", () => setTimeout(showAll, 600));
+setTimeout(showAll, 2500);
