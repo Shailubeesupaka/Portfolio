@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Artifact 7 | Shailu Beesupaka</title>
+  <meta name="description" content="Artifact 7 academic portfolio page for Shailu Beesupaka.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Sora:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="noise-layer" aria-hidden="true"></div>
+  <header class="topbar">
+    <a class="identity" href="index.html">
+      <span class="identity-mark">SB</span>
+      <span class="identity-text">
+        <strong>Shailu Beesupaka</strong>
+      </span>
+    </a>
+    <button class="menu-toggle" aria-expanded="false" aria-controls="site-nav" aria-label="Toggle navigation">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+    <nav id="site-nav" class="site-nav">
+      <a href="index.html">Home</a>
+      <a href="artifact1.html">Artifact 1</a>
+      <a href="artifact2.html">Artifact 2</a>
+      <a href="artifact3.html">Artifact 3</a>
+      <a href="artifact4.html">Artifact 4</a>
+      <a href="artifact5.html">Artifact 5</a>
+      <a href="artifact6.html">Artifact 6</a>
+      <a href="artifact7.html">Artifact 7</a>
+      <a href="index.html#skills">Skills</a>
+      <a href="index.html#education">Education</a>
+      <a href="index.html#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main class="artifact-page-main">
+    <section class="artifact-page-layout">
+      <article class="artifact-page-card artifact-page-hero">
+        <div class="artifact-page-intro">
+          <p class="section-label">Artifact 7</p>
+          <h1>Inside a Neural Network: Components Presentation</h1>
+          <p>This artifact is a 12-slide visual presentation that explains the six core components of a neural network and shows how they work together, backed by my own experiments in the TensorFlow Neural Network Playground.</p>
+          <p>
+            <a class="button button-solid" href="assets/nn-components.pdf" target="_blank" rel="noopener">View the Slides (PDF)</a>
+            <a class="button button-outline" href="assets/nn-components.pptx" download>Download PowerPoint</a>
+          </p>
+        </div>
+        <div class="artifact-page-visual">
+          <img src="assets/nn-slide-2.jpg" alt="Slide showing a neural network with an input layer, two hidden layers, and an output layer, with forward and backward passes marked">
+          <p class="artifact-page-visual-caption">The architecture slide shows how data flows from the input layer through hidden layers to the output, and how errors flow back during training.</p>
+        </div>
+      </article>
+
+      <div class="artifact-page-content">
+        <article class="artifact-page-card artifact-section-card">
+          <h2>Introduction</h2>
+          <p>This artifact is based on my AIML-501 Model Development portfolio assignment on neural network components.</p>
+          <p>Neural networks power image recognition, language tools, and prediction systems, yet their inner workings often feel like a black box. This presentation opens that box one component at a time, so that technical and non-technical audiences can see what each part does and why it matters.</p>
+        </article>
+
+        <article class="artifact-page-card artifact-section-card">
+          <h2>Description</h2>
+          <p>The presentation defines and illustrates layers, neurons, weights, activation functions, loss functions, and optimization algorithms. It opens with an architecture diagram of data flowing from the input layer through hidden layers to the output layer, then gives each component its own slide with a visual and a concise explanation.</p>
+          <p>Two slides document three experiments I ran in the TensorFlow Playground on a supervised binary classification task, comparing a small network on circle and spiral data with a deeper ReLU network. A summary slide closes with why visualizing neural networks matters and the key insights I gained. Unlike Artifact 3, which gives a general overview of how networks learn, this artifact is a component-by-component reference supported by measured results.</p>
+          <div class="artifact-page-section-media">
+            <div class="artifact-page-grid">
+              <div class="artifact-page-visual">
+                <img src="assets/nn-slide-4.jpg" alt="Slide explaining a neuron as weighted inputs, a sum plus bias, and an activation function">
+                <p class="artifact-page-visual-caption">Neurons: each neuron weighs its inputs, adds a bias, and applies an activation function.</p>
+              </div>
+              <div class="artifact-page-visual">
+                <img src="assets/nn-slide-6.jpg" alt="Slide with a chart comparing ReLU, sigmoid, and tanh activation functions">
+                <p class="artifact-page-visual-caption">Activation functions: a chart of ReLU, sigmoid, and tanh shows how each one shapes a neuron's output.</p>
+              </div>
+              <div class="artifact-page-visual">
+                <img src="assets/nn-slide-9.jpg" alt="Slide showing three TensorFlow Playground experiments with their test loss values">
+                <p class="artifact-page-visual-caption">Playground experiments: test loss of 0.004 on circle data, 0.481 on spiral data, and 0.069 with a deeper network.</p>
+              </div>
+              <div class="artifact-page-visual">
+                <img src="assets/nn-slide-10.jpg" alt="Slide with a bar chart of test loss for the three experiments and four insights">
+                <p class="artifact-page-visual-caption">Insights: the deeper ReLU network cut test loss by about 86% on the spiral data.</p>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="artifact-page-card artifact-section-card">
+          <h2>Objective</h2>
+          <ul>
+            <li>Clearly define and describe the six key components of a neural network</li>
+            <li>Visually illustrate the network's structure and how data flows through it</li>
+            <li>Communicate complex neural network concepts concisely for a broad audience</li>
+            <li>Connect the concepts to hands-on evidence from my own experiments</li>
+          </ul>
+        </article>
+
+        <article class="artifact-page-card artifact-section-card">
+          <h2>Process</h2>
+          <ul>
+            <li>Trained models in the TensorFlow Playground, changing the dataset, the number of hidden layers and neurons, and the activation function</li>
+            <li>Recorded three controlled runs with the same settings: 500 points split 250 for training and 250 for testing, learning rate 0.03, batch size 10, noise 0, no regularization, and inputs X1 and X2</li>
+            <li>Read the Playground's official source code to confirm how it measures loss (average squared error), updates weights (mini-batch gradient descent), and starts its weights (random values between &minus;0.5 and 0.5)</li>
+            <li>Checked each component's definition against a deep learning textbook and the original research papers (see References)</li>
+            <li>Designed one slide per component, each with a diagram, chart, or worked example instead of text alone</li>
+            <li>Calculated chart values directly, such as squared-error loss and the number of learnable weights and biases</li>
+            <li>Used the Playground's own blue and orange colors so the slides match what viewers see in the tool</li>
+            <li>Exported the presentation as a PowerPoint file and a PDF for easy viewing</li>
+          </ul>
+        </article>
+
+        <article class="artifact-page-card artifact-section-card">
+          <h2>How to Repeat My Experiments</h2>
+          <p>Each link opens the Playground with my exact settings. Click Play and pause at the epoch shown. Starting weights are random, so repeated runs give similar but not identical loss values.</p>
+          <ul>
+            <li><a href="https://playground.tensorflow.org/#activation=tanh&amp;batchSize=10&amp;dataset=circle&amp;regDataset=reg-plane&amp;learningRate=0.03&amp;regularizationRate=0&amp;noise=0&amp;networkShape=4,2&amp;seed=0.20480&amp;showTestData=false&amp;discretize=false&amp;percTrainData=50&amp;x=true&amp;y=true&amp;xTimesY=false&amp;xSquared=false&amp;ySquared=false&amp;cosX=false&amp;sinX=false&amp;cosY=false&amp;sinY=false&amp;collectStats=false&amp;problem=classification&amp;initZero=false&amp;hideText=false" target="_blank" rel="noopener">Experiment 1</a>: circle data, hidden layers of 4 and 2, tanh, epoch 323, test loss 0.004</li>
+            <li><a href="https://playground.tensorflow.org/#activation=tanh&amp;batchSize=10&amp;dataset=spiral&amp;regDataset=reg-plane&amp;learningRate=0.03&amp;regularizationRate=0&amp;noise=0&amp;networkShape=4,2&amp;seed=0.20480&amp;showTestData=false&amp;discretize=false&amp;percTrainData=50&amp;x=true&amp;y=true&amp;xTimesY=false&amp;xSquared=false&amp;ySquared=false&amp;cosX=false&amp;sinX=false&amp;cosY=false&amp;sinY=false&amp;collectStats=false&amp;problem=classification&amp;initZero=false&amp;hideText=false" target="_blank" rel="noopener">Experiment 2</a>: spiral data, hidden layers of 4 and 2, tanh, epoch 313, test loss 0.481</li>
+            <li><a href="https://playground.tensorflow.org/#activation=relu&amp;batchSize=10&amp;dataset=spiral&amp;regDataset=reg-plane&amp;learningRate=0.03&amp;regularizationRate=0&amp;noise=0&amp;networkShape=6,6,6,6&amp;seed=0.20480&amp;showTestData=false&amp;discretize=false&amp;percTrainData=50&amp;x=true&amp;y=true&amp;xTimesY=false&amp;xSquared=false&amp;ySquared=false&amp;cosX=false&amp;sinX=false&amp;cosY=false&amp;sinY=false&amp;collectStats=false&amp;problem=classification&amp;initZero=false&amp;hideText=false" target="_blank" rel="noopener">Experiment 3</a>: spiral data, four hidden layers of 6, ReLU, epoch 512, test loss 0.069</li>
+          </ul>
+        </article>
+
+        <article class="artifact-page-card artifact-section-card">
+          <h2>Tools and Technologies Used</h2>
+          <p class="tags">TensorFlow Neural Network Playground | Playground source code (GitHub) | Microsoft PowerPoint | Native PowerPoint charts | Claude (AI assistant) | GitHub Pages</p>
+        </article>
+
+        <article class="artifact-page-card artifact-section-card">
+          <h2>Value Proposition</h2>
+          <p>This presentation turns six abstract components into a clear visual story that can be followed in a few minutes. It shows that I can explain how neural networks work, test ideas with hands-on experiments, and present the results professionally.</p>
+          <p><b>Unique Value:</b> Each concept is tied to measured evidence. The slides do not just define components; they show what changed when I altered the data, depth, and activation function in a real model.</p>
+          <p><b>Relevance:</b> Useful for AI and data analytics roles, where professionals must explain why a model succeeds or fails and choose the right network size for the data.</p>
+        </article>
+
+        <article class="artifact-page-card artifact-section-card">
+          <h2>References</h2>
+          <p>Goodfellow, I., Bengio, Y., &amp; Courville, A. (2016). <i>Deep learning</i>. MIT Press. https://www.deeplearningbook.org/</p>
+          <p>Google for Developers. (n.d.). <i>Neural networks</i>. Machine Learning Crash Course. https://developers.google.com/machine-learning/crash-course/neural-networks</p>
+          <p>Kingma, D. P., &amp; Ba, J. (2015). Adam: A method for stochastic optimization. In <i>3rd International Conference on Learning Representations</i>. https://doi.org/10.48550/arXiv.1412.6980</p>
+          <p>Nair, V., &amp; Hinton, G. E. (2010). Rectified linear units improve restricted Boltzmann machines. In <i>Proceedings of the 27th International Conference on Machine Learning</i> (pp. 807&ndash;814).</p>
+          <p>Rumelhart, D. E., Hinton, G. E., &amp; Williams, R. J. (1986). Learning representations by back-propagating errors. <i>Nature, 323</i>(6088), 533&ndash;536. https://doi.org/10.1038/323533a0</p>
+          <p>Smilkov, D., Carter, S., Sculley, D., Vi&eacute;gas, F. B., &amp; Wattenberg, M. (2017). <i>Direct-manipulation visualization of deep networks</i> (arXiv:1708.03788). arXiv. https://doi.org/10.48550/arXiv.1708.03788</p>
+          <p>TensorFlow. (n.d.-a). <i>Playground</i> [Source code]. GitHub. https://github.com/tensorflow/playground</p>
+          <p>TensorFlow. (n.d.-b). <i>A neural network playground</i> [Online tool]. https://playground.tensorflow.org/</p>
+        </article>
+
+        <div class="artifact-page-footer-actions">
+          <a class="button button-solid" href="index.html">Back to Portfolio</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
