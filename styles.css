@@ -1116,3 +1116,7 @@ main > .panel-section {
     padding: 0.7rem;
   }
 }
+
+/* Keep long reference URLs from widening pages on phones */
+.artifact-page-layout > * { min-width: 0; }
+.artifact-section-card p, .artifact-section-card li { overflow-wrap: anywhere; }

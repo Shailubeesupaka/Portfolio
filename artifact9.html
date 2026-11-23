@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Artifact 9 | Shailu Beesupaka</title>
+  <meta name="description" content="Artifact 9: a presentation on explainable AI, validation, and performance metrics for large language models, by Shailu Beesupaka.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Sora:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="noise-layer" aria-hidden="true"></div>
+  <header class="topbar">
+    <a class="identity" href="index.html">
+      <span class="identity-mark">SB</span>
+      <span class="identity-text">
+        <strong>Shailu Beesupaka</strong>
+      </span>
+    </a>
+    <button class="menu-toggle" aria-expanded="false" aria-controls="site-nav" aria-label="Toggle navigation">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+    <nav id="site-nav" class="site-nav">
+      <a href="index.html">Home</a>
+      <a href="artifact1.html">Artifact 1</a>
+      <a href="artifact2.html">Artifact 2</a>
+      <a href="artifact3.html">Artifact 3</a>
+      <a href="artifact4.html">Artifact 4</a>
+      <a href="artifact5.html">Artifact 5</a>
+      <a href="artifact6.html">Artifact 6</a>
+      <a href="artifact7.html">Artifact 7</a>
+      <a href="artifact8.html">Artifact 8</a>
+      <a href="artifact9.html">Artifact 9</a>
+      <a href="index.html#skills">Skills</a>
+      <a href="index.html#education">Education</a>
+      <a href="index.html#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main class="artifact-page-main">
+    <section class="artifact-page-layout">
+      <article class="artifact-page-card artifact-page-hero">
+        <div class="artifact-page-intro">
+          <p class="section-label">Artifact 9</p>
+          <h1>Opening the Black Box: Explainable AI for Large Language Models</h1>
+          <p>This artifact is a 14-slide presentation for non-technical audiences that explains what explainable AI is, why large language models such as GPT, Claude, Gemini, and LLaMA are hard to explain, how validation and performance metrics build trust, and what OpenAI, Anthropic, Google DeepMind, and Meta are doing to make their models more transparent.</p>
+          <p>
+            <a class="button button-solid" href="assets/xai-explainability.pdf" target="_blank" rel="noopener">View the Slides (PDF)</a>
+            <a class="button button-outline" href="assets/xai-explainability.pptx" download>Download PowerPoint</a>
+          </p>
+          <p><a class="button button-outline" href="assets/xai-explanatory-document.docx" download>Download the Explanatory Document</a></p>
+        </div>
+        <div class="artifact-page-visual">
+          <img src="assets/xai-slide-1.jpg" alt="Title slide reading Opening the Black Box, with a magnifying lens revealing a network inside a black box">
+          <p class="artifact-page-visual-caption">The title slide sets the theme: a lens that makes the hidden workings of an AI model visible.</p>
+        </div>
+      </article>
+
+      <div class="artifact-page-content">
+        <article class="artifact-page-card artifact-section-card">
+          <h2>Introduction</h2>
+          <p>This artifact is based on my AIML-501 Model Development portfolio assignment on explainable AI, validation, and performance metrics.</p>
+          <p>Large language models are now used in healthcare, finance, and law, yet even their developers cannot fully explain how they reach an answer. This presentation explains that problem in plain language and shows what explanations, testing, and measurement can and cannot tell us about whether to trust an AI system.</p>
+        </article>
+
+        <article class="artifact-page-card artifact-section-card">
+          <h2>Description</h2>
+          <p>The presentation is organized into four numbered sections. <b>01 Explainable AI and its importance</b> defines XAI using NIST&rsquo;s four principles and shows why transparency matters in high-stakes fields and under the EU AI Act. <b>02 Challenges</b> covers five obstacles (scale, tangled concepts, after-the-fact explanations, imperfect data, and secrecy) and shows research in which reasoning models mentioned a hint they used only 25% to 39% of the time. <b>03 Validation and performance metrics</b> presents a six-step validation cycle, a table linking each metric to the trust question it answers, and a chart of Stanford&rsquo;s Foundation Model Transparency Index. <b>04 Current solutions</b> compares the interpretability work of four AI leaders and summarizes six techniques with their limits.</p>
+          <p>The explanatory document uses the same four numbered sections, in the same order, so the slides and the document match.</p>
+          <div class="artifact-page-section-media">
+            <div class="artifact-page-grid">
+              <div class="artifact-page-visual">
+                <a href="assets/xai-slide-5.jpg" target="_blank" rel="noopener"><img src="assets/xai-slide-5.jpg" alt="Slide showing five obstacles to explaining large language models, each with an icon, a short explanation, and published evidence"></a>
+                <p class="artifact-page-visual-caption">Challenges: five obstacles, each backed by a published finding.</p>
+              </div>
+              <div class="artifact-page-visual">
+                <a href="assets/xai-slide-6.jpg" target="_blank" rel="noopener"><img src="assets/xai-slide-6.jpg" alt="Slide with large statistics showing Claude 3.7 Sonnet mentioned a hint 25 percent of the time and DeepSeek R1 39 percent of the time"></a>
+                <p class="artifact-page-visual-caption">Unfaithful explanations: a model&rsquo;s own reasoning can leave out the real reason for its answer.</p>
+              </div>
+              <div class="artifact-page-visual">
+                <a href="assets/xai-slide-8.jpg" target="_blank" rel="noopener"><img src="assets/xai-slide-8.jpg" alt="Table linking accuracy, calibration, robustness, fairness, and explanation faithfulness to the trust question each answers"></a>
+                <p class="artifact-page-visual-caption">Metrics: each metric answers a different trust question, including one example from my own model evaluation.</p>
+              </div>
+              <div class="artifact-page-visual">
+                <a href="assets/xai-slide-9.jpg" target="_blank" rel="noopener"><img src="assets/xai-slide-9.jpg" alt="Bar chart of average Foundation Model Transparency Index scores: 37 in 2023, 58 in 2024, and 40 in 2025"></a>
+                <p class="artifact-page-visual-caption">Measuring transparency: average scores of 37, 58, and 40, with a note that the 2025 indicators changed.</p>
+              </div>
+              <div class="artifact-page-visual">
+                <a href="assets/xai-slide-10.jpg" target="_blank" rel="noopener"><img src="assets/xai-slide-10.jpg" alt="Slide comparing interpretability work at OpenAI, Anthropic, Google DeepMind, and Meta, with each approach's limit"></a>
+                <p class="artifact-page-visual-caption">Industry leaders: what OpenAI, Anthropic, Google DeepMind, and Meta are doing, and each approach&rsquo;s stated limit.</p>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="artifact-page-card artifact-section-card">
+          <h2>Objective</h2>
+          <ul>
+            <li>Explain the key obstacles in interpreting the outputs of generative AI models</li>
+            <li>Describe the techniques OpenAI, Anthropic, Google DeepMind, and Meta use to improve explainability</li>
+            <li>Show how validation processes and performance metrics support reliability, accountability, and trust</li>
+            <li>Communicate these ideas clearly and accurately to a non-technical audience</li>
+          </ul>
+        </article>
+
+        <article class="artifact-page-card artifact-section-card">
+          <h2>Process</h2>
+          <ul>
+            <li>Researched explainability challenges and industry techniques using developer research pages, peer-reviewed papers, NIST guidance, and the EU AI Act</li>
+            <li>Checked every statistic against its original source and recorded exactly what each number measures</li>
+            <li>Organized the content into four numbered sections that match the assignment&rsquo;s four required topics</li>
+            <li>Designed one message per slide, with a section label, an icon, and a source line on every content slide</li>
+            <li>Used color to carry meaning: violet for main content, teal for evidence, and amber for limitations</li>
+            <li>Built the transparency chart as a native PowerPoint chart and flagged where scores are not directly comparable</li>
+            <li>Connected the metrics slide to my own AIML-501 model evaluation, where an SVM classified handwritten digits with 99.1% accuracy</li>
+            <li>Wrote an explanatory document that follows the same four sections as the slides</li>
+          </ul>
+        </article>
+
+        <article class="artifact-page-card artifact-section-card">
+          <h2>Tools and Technologies Used</h2>
+          <p class="tags">Microsoft PowerPoint | Native PowerPoint charts | Microsoft Word | Claude (AI assistant) | GitHub Pages</p>
+        </article>
+
+        <article class="artifact-page-card artifact-section-card">
+          <h2>Value Proposition</h2>
+          <p>This presentation turns one of the hardest problems in AI into a short, clear story: why we cannot yet see fully inside large language models, and how explanations, validation, and metrics together help people decide how far to trust them. It shows that I can research a fast-moving topic, check claims against original sources, and present them honestly to a general audience.</p>
+          <p><b>Unique Value:</b> Every approach is shown alongside its limit. Instead of presenting explainability tools as solved, the slides mark where each one falls short and close with a practical checklist anyone can use before trusting an AI answer.</p>
+          <p><b>Relevance:</b> Useful for AI and analytics roles in regulated fields such as healthcare and finance, where professionals must explain model decisions to managers, customers, and regulators.</p>
+        </article>
+
+        <article class="artifact-page-card artifact-section-card">
+          <h2>References</h2>
+          <p>Anthropic. (2024, May 21). <i>Mapping the mind of a large language model</i>. https://www.anthropic.com/research/mapping-mind-language-model</p>
+          <p>Anthropic. (2025a, March 27). <i>Tracing the thoughts of a large language model</i>. https://www.anthropic.com/research/tracing-thoughts-language-model</p>
+          <p>Anthropic. (2025b, April 3). <i>Reasoning models don&rsquo;t always say what they think</i>. https://www.anthropic.com/research/reasoning-models-dont-say-think</p>
+          <p>Belinkov, Y. (2022). Probing classifiers: Promises, shortcomings, and advances. <i>Computational Linguistics, 48</i>(1), 207&ndash;219. https://doi.org/10.1162/coli_a_00422</p>
+          <p>Bommasani, R., Klyman, K., Kapoor, S., Longpre, S., Xiong, B., Maslej, N., &amp; Liang, P. (2024, May 21). <i>The Foundation Model Transparency Index after 6 months</i>. Stanford Center for Research on Foundation Models. https://crfm.stanford.edu/2024/05/21/fmti-may-2024.html</p>
+          <p>Bommasani, R., Klyman, K., Wan, A., &amp; Liang, P. (2025, December 9). <i>Transparency in AI is on the decline</i>. Stanford Institute for Human-Centered Artificial Intelligence. https://hai.stanford.edu/news/transparency-in-ai-is-on-the-decline</p>
+          <p>Hofmann, V., Kalluri, P. R., Jurafsky, D., &amp; King, S. (2024). AI generates covertly racist decisions about people based on their dialect. <i>Nature, 633</i>(8028), 147&ndash;154. https://doi.org/10.1038/s41586-024-07856-5</p>
+          <p>Jain, S., &amp; Wallace, B. C. (2019). Attention is not explanation. In <i>Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies</i> (pp. 3543&ndash;3556). Association for Computational Linguistics. https://doi.org/10.18653/v1/N19-1357</p>
+          <p>James, G., Witten, D., Hastie, T., &amp; Tibshirani, R. (2021). <i>An introduction to statistical learning: With applications in R</i> (2nd ed.). Springer. https://doi.org/10.1007/978-1-0716-1418-1</p>
+          <p>Liang, P., Bommasani, R., Lee, T., Tsipras, D., Soylu, D., Yasunaga, M., Zhang, Y., Narayanan, D., Wu, Y., Kumar, A., Newman, B., Yuan, B., Yan, B., Zhang, C., Cosgrove, C., Manning, C. D., R&eacute;, C., Acosta-Navas, D., Hudson, D. A., &hellip; Koreeda, Y. (2022). <i>Holistic evaluation of language models</i> (arXiv:2211.09110). arXiv. https://doi.org/10.48550/arXiv.2211.09110</p>
+          <p>Lieberum, T., Rajamanoharan, S., Conmy, A., Smith, L., Sonnerat, N., Varma, V., Kram&aacute;r, J., Dragan, A., Shah, R., &amp; Nanda, N. (2024). <i>Gemma Scope: Open sparse autoencoders everywhere all at once on Gemma 2</i> (arXiv:2408.05147). arXiv. https://doi.org/10.48550/arXiv.2408.05147</p>
+          <p>Meta. (2024). <i>Llama 3.1 model card</i>. GitHub. https://github.com/meta-llama/llama-models/blob/main/models/llama3_1/MODEL_CARD.md</p>
+          <p>Meta AI. (2019, October 10). <i>Open-sourcing Captum: A model interpretability library for PyTorch</i>. https://ai.meta.com/blog/open-sourcing-captum-a-model-interpretability-library-for-pytorch/</p>
+          <p>Mitchell, M., Wu, S., Zaldivar, A., Barnes, P., Vasserman, L., Hutchinson, B., Spitzer, E., Raji, I. D., &amp; Gebru, T. (2019). Model cards for model reporting. In <i>Proceedings of the Conference on Fairness, Accountability, and Transparency</i> (pp. 220&ndash;229). Association for Computing Machinery. https://doi.org/10.1145/3287560.3287596</p>
+          <p>OpenAI. (2023a, May 9). <i>Language models can explain neurons in language models</i>. https://openai.com/index/language-models-can-explain-neurons-in-language-models/</p>
+          <p>OpenAI. (2023b). <i>GPT-4 technical report</i> (arXiv:2303.08774). arXiv. https://doi.org/10.48550/arXiv.2303.08774</p>
+          <p>OpenAI. (2024, June 6). <i>Extracting concepts from GPT-4</i>. https://openai.com/index/extracting-concepts-from-gpt-4/</p>
+          <p>Phillips, P. J., Hahn, C. A., Fontana, P. C., Yates, A. N., Greene, K., Broniatowski, D. A., &amp; Przybocki, M. A. (2021). <i>Four principles of explainable artificial intelligence</i> (NISTIR 8312). National Institute of Standards and Technology. https://doi.org/10.6028/NIST.IR.8312</p>
+          <p>Regulation (EU) 2024/1689 of the European Parliament and of the Council of 13 June 2024 laying down harmonised rules on artificial intelligence (Artificial Intelligence Act). (2024). <i>Official Journal of the European Union</i>. https://eur-lex.europa.eu/eli/reg/2024/1689/oj</p>
+        </article>
+
+        <div class="artifact-page-footer-actions">
+          <a class="button button-solid" href="index.html">Back to Portfolio</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
